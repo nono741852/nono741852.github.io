@@ -2,7 +2,7 @@ baseURL: https://nono741852.github.io/
 languageCode: en-US
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
-title: Hugo Narrow
+title: rynnono.top
 theme: "hugo-narrow"
 
 
@@ -113,7 +113,7 @@ menus:
       params:
         icon: linkedin
     - name: Email
-      url: mailto:your.email@example.com
+      url: mailto:ryn18247501992@163.com
       weight: 40
       params:
         icon: email
@@ -136,9 +136,9 @@ params:
 
 
   author:
-    name: "Hugo Narrow"
-    title: "A Clean and Minimal Hugo Theme"
-    description: "Focused on content and user experience."
+    name: "rynnono"
+    title: "学习记录"
+    description: "还没想好."
     avatar: "/images/avatar.svg"
     social:
       - name: "GitHub"
