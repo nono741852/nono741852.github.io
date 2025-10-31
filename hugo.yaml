@@ -19,14 +19,15 @@ pagination:
   path: "page"
 
 languages:
-  en:
-    languageCode: en-US
-    languageName: "English"
-    weight: 1
   zh-cn:
     languageCode: zh-CN
     languageName: "简体中文"
+    weight: 1
+  en:
+    languageCode: en-US
+    languageName: "English"
     weight: 2
+  
   ja:
     languageCode: ja-JP
     languageName: "日本語"
@@ -123,7 +124,7 @@ params:
   description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
   keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
   defaultAuthor: "Hugo Narrow"
-  language: "en-US"
+  language: "zh-cn"
   shortName: "Hugo Narrow"  # PWA
   images:
   - "/images/og-default.avif"
@@ -148,7 +149,7 @@ params:
         url: "https://twitter.com/username"
         icon: "twitter"
       - name: "Email"
-        url: "mailto:hello@example.com"
+        url: "mailto:ryn18247501992@163.com"
         icon: "email"
 
   # UI Components Control
