@@ -69,10 +69,11 @@ flowchart TD
 [Hugo 安装保姆级教程](https://blog.yimengtut.online/p/hugo-%E5%AE%89%E8%A3%85%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/)
 
 按照上面教程链接一步步操作即可。需要补充的是，当你设置主题的时候，先打开exampleSite文件夹看一看有没有hugo.yaml或者hugo.toml  它类似于网站的配置文件 之
-![[static/image/Pasted image 20251031183424.png]]
+![ ](/images/Pasted image 20251031183424.png)
+
 
 后打开对照theme这一行的名字，保证主题文件夹的名字与这个一致。
-![[image/Pasted image 20251031183609.png]]
+![[../../static/images/Pasted image 20251031183609.png]]
 
 之后直接将hugo.yaml和content文件夹复制到网站的文件夹下，替换掉原有的，这是本身没有之前文章的情况，如果有记得拷贝到content。而且一定注意此时目录下只有hugo.yaml或者hugo.toml，因为默认Hugo 会按以下顺序查找配置文件：
 
@@ -83,7 +84,7 @@ flowchart TD
 - `hugo.json`
 在项目中只能选择其中一个，不能同时存在。
 
-![[image/Pasted image 20251031184255.png]]
+![[../../static/images/Pasted image 20251031184255.png]]
 ### 部署到 Github  
 
 1、创建一个**与你用户名相同的仓库**，比如
@@ -92,21 +93,21 @@ flowchart TD
 ```
 
 比如我注册的名字是 nono741852.所以这里我创建的仓库的名字必须是 ： nono741852.github.io
-![[image/Pasted image 20251031185717.png]]
+![[images/Pasted image 20251031185717.png]]
 之后就可以将本地的网站文件push到这个仓库了
 
 2、将网站资源上传部署到github
 
 在你刚刚放置网站的文件夹下
-![[image/Pasted image 20251031190727.png]]
+![[../../static/images/Pasted image 20251031190727.png]]
 详细的可以去看git教程
 总之就是把文件都push上去（我创建的分支是master，main是远程仓库名字，命名这可能有点不规范了不要学我）
-![[image/Pasted image 20251031190821.png]]
-![[image/Pasted image 20251031190837.png]]
+![[../../static/images/Pasted image 20251031190821.png]]
+![[../../static/images/Pasted image 20251031190837.png]]
 
 上传好后：
 
-![[image/Pasted image 20251031191132.png]]
+![[../../static/images/Pasted image 20251031191132.png]]
 ok github这边就ok了，接下来就是服务器的托管和网站部署了
 
 ## Cloudflare Pages自动构建和部署
@@ -120,14 +121,14 @@ Cloudflare 是一家全球知名的网络安全与性能优化公司，主要为
 > 需要注意的是，在设置自定义域名时候配置DNS时，使用CNAME时的目标记得和项目的Aliases保持一致，建议直接拷贝过去。我当时就是因为前面少了个分支master，网站一直有问题无法显示。
 
 
-![[image/Pasted image 20251031192600.png]]
+![[../../static/images/Pasted image 20251031192600.png]]
 
 
-![[image/Pasted image 20251031192321.png]]
+![[../../static/images/Pasted image 20251031192321.png]]
 
 **DNS 查询网站**
 [DNS Checker - DNS Check Propagation Tool](https://dnschecker.org/#A/rynnono.top)
-![[image/Pasted image 20251031161328.png]]
+![[../../static/images/Pasted image 20251031161328.png]]
 
 1. **如果 dnschecker 显示正确**，那说明问题只是时间差，Cloudflare 的状态更新有延迟，请耐心等待最多1-2小时。
     
@@ -137,7 +138,7 @@ Cloudflare 是一家全球知名的网络安全与性能优化公司，主要为
 
 直接在你的网站文件夹下创建仓库打开就可以编辑内容了。至于obsidian怎么安装使用，自行搜索吧，详细的教程有很多，很推荐作为笔记去使用。
 
-![[image/Pasted image 20251031192809.png]]
+![[../../static/images/Pasted image 20251031192809.png]]
 
 
 
