@@ -9,13 +9,13 @@
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/categories/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/categories/"
+                hreflang="en-US"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -32,13 +32,13 @@
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/categories/github/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/categories/github/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/categories/github/"
+                hreflang="en-US"
+                href="http://localhost:1313/categories/github/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -55,13 +55,13 @@
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/tags/markdown/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tags/markdown/"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -78,13 +78,13 @@
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/posts/"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -101,13 +101,13 @@
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/tags/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tags/"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -137,13 +137,13 @@
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/test-alert/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/posts/test-alert/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/posts/test-alert/"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/test-alert/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -187,13 +187,13 @@
     <lastmod>2024-01-17T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/tags/mermaid/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/mermaid/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tags/mermaid/"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/mermaid/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -210,13 +210,13 @@
     <lastmod>2024-01-17T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/katex-and-mermaid-test/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/posts/katex-mermaid-test/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/posts/katex-mermaid-test/"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/katex-and-mermaid-test/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -252,13 +252,13 @@
     <lastmod>2024-01-16T22:30:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/image-rendering-test/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/posts/%E5%9B%BE%E7%89%87%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/posts/%E5%9B%BE%E7%89%87%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/image-rendering-test/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -294,13 +294,13 @@
     <lastmod>2024-01-16T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/code-highlighting-test/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/posts/code-highlighting-test/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/posts/code-highlighting-test/"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/code-highlighting-test/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -317,13 +317,13 @@
     <lastmod>2024-01-15T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/markdown-syntax-test-document/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/posts/markdown-%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/posts/markdown-%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/markdown-syntax-test-document/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -379,13 +379,13 @@
     <lastmod>2024-01-01T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/about/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/about/"
+                hreflang="en-US"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -402,13 +402,13 @@
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/"
+                hreflang="en-US"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -424,13 +424,13 @@
     <loc>http://localhost:1313/fr/archives/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/archives/"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/archives/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/archives/"
+                hreflang="en-US"
+                href="http://localhost:1313/archives/"
                 />
     <xhtml:link
                 rel="alternate"

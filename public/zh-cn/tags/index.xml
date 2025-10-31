@@ -6,13 +6,34 @@
     <description>Recent content in Tags on rynnono.top</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 10:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
       <link>http://localhost:1313/zh-cn/tags/markdown/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0800</pubDate>
+      <pubDate>Fri, 31 Oct 2025 10:00:00 +0800</pubDate>
       <guid>http://localhost:1313/zh-cn/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>教程</title>
+      <link>http://localhost:1313/zh-cn/tags/%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Fri, 31 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/zh-cn/tags/%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>文档</title>
+      <link>http://localhost:1313/zh-cn/tags/%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Fri, 31 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/zh-cn/tags/%E6%96%87%E6%A1%A3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>想法</title>
+      <link>http://localhost:1313/zh-cn/tags/%E6%83%B3%E6%B3%95/</link>
+      <pubDate>Fri, 31 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/zh-cn/tags/%E6%83%B3%E6%B3%95/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +104,6 @@
       <link>http://localhost:1313/zh-cn/tags/%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE/</link>
       <pubDate>Tue, 16 Jan 2024 10:00:00 +0800</pubDate>
       <guid>http://localhost:1313/zh-cn/tags/%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>文档</title>
-      <link>http://localhost:1313/zh-cn/tags/%E6%96%87%E6%A1%A3/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/zh-cn/tags/%E6%96%87%E6%A1%A3/</guid>
       <description></description>
     </item>
     <item>
