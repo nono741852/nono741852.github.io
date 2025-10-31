@@ -109,7 +109,7 @@
               "type": "backlink",
               "state": {
                 "file": "posts/makeblog.zh-cn 1.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -165,12 +165,12 @@
               "title": "makeblog.zh-cn 1 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,17 +185,22 @@
   },
   "active": "77ed11b53d51d6fa",
   "lastOpenFiles": [
-    "fig/Pasted image 20251031185717.png",
-    "fig/Pasted image 20251031184255.png",
-    "fig/Pasted image 20251031183609.png",
-    "fig/Pasted image 20251031183424.png",
-    "fig/Pasted image 20251031181947.png",
-    "fig/Pasted image 20251031161348.png",
-    "Pasted image 20251031161211.png",
-    "posts/makeblog.zh-cn 1.md",
-    "fig/Pasted image 20251031161328.png",
-    "posts/katex-mermaid-test.zh-cn.md",
+    "fig/Pasted image 20251031192809.png",
+    "fig/Pasted image 20251031192600.png",
+    "fig/Pasted image 20251031192554.png",
+    "fig/Pasted image 20251031192321.png",
+    "fig/Pasted image 20251031192316.png",
+    "fig/Pasted image 20251031191711.png",
     "posts/markdown-test.zh-cn.md",
+    "posts/code-highlighting-test.zh-cn.md",
+    "posts/katex-mermaid-test.md",
+    "posts/makeblog.zh-cn 1.md",
+    "fig/Pasted image 20251031191132.png",
+    "fig/Pasted image 20251031190837.png",
+    "fig/Pasted image 20251031190821.png",
+    "fig/Pasted image 20251031190727.png",
+    "fig/Pasted image 20251031185717.png",
+    "posts/katex-mermaid-test.zh-cn.md",
     "fig",
     "新建文件夹 (2)",
     "新建文件夹",

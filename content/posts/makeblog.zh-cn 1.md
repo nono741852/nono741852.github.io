@@ -62,16 +62,17 @@ flowchart TD
 #### 注册喜欢的域名
 
 详细的步骤我就不赘述了，我是按照这个教程注册的：[(99+ 封私信 / 64 条消息) 零基础如何搭建一个属于自己的网站（超详细记录） - 知乎](https://zhuanlan.zhihu.com/p/1926206677583139289)
-
-但是注意只需要参考到注册域名部分就可以，后面的需要购买服务器（本教程不需要，而是通过下面的国外的cloudflare进行托管——主要是免费）
+> [!NOTE]
+> 但是注意只需要参考到注册域名部分就可以，后面的需要购买服务器（本教程不需要，而是通过下面的国外的cloudflare进行托管——主要是免费）
 
 ## Hugo安装及生成网站
 [Hugo 安装保姆级教程](https://blog.yimengtut.online/p/hugo-%E5%AE%89%E8%A3%85%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/)
 
 按照上面教程链接一步步操作即可。需要补充的是，当你设置主题的时候，先打开exampleSite文件夹看一看有没有hugo.yaml或者hugo.toml  它类似于网站的配置文件 之
-![[Pasted image 20251031183424.png]]
+![[fig/Pasted image 20251031183424.png]]
+
 后打开对照theme这一行的名字，保证主题文件夹的名字与这个一致。
-![[Pasted image 20251031183609.png]]
+![[fig/Pasted image 20251031183609.png]]
 
 之后直接将hugo.yaml和content文件夹复制到网站的文件夹下，替换掉原有的，这是本身没有之前文章的情况，如果有记得拷贝到content。而且一定注意此时目录下只有hugo.yaml或者hugo.toml，因为默认Hugo 会按以下顺序查找配置文件：
 
@@ -82,7 +83,7 @@ flowchart TD
 - `hugo.json`
 在项目中只能选择其中一个，不能同时存在。
 
-![[Pasted image 20251031184255.png]]
+![[fig/Pasted image 20251031184255.png]]
 ### 部署到 Github  
 
 1、创建一个**与你用户名相同的仓库**，比如
@@ -91,24 +92,38 @@ flowchart TD
 ```
 
 比如我注册的名字是 nono741852.所以这里我创建的仓库的名字必须是 ： nono741852.github.io
-![[Pasted image 20251031185717.png]]
+![[fig/Pasted image 20251031185717.png]]
 之后就可以将本地的网站文件push到这个仓库了
 
 2、将网站资源上传部署到github
 
 在你刚刚放置网站的文件夹下
-## cloudflare服务器托管
-[免费的个人网站托管-Cloudflare - ！win ！ - 博客园](https://www.cnblogs.com/xwwin/p/19019164)
+![[fig/Pasted image 20251031190727.png]]
+详细的可以去看git教程
+总之就是把文件都push上去（我创建的分支是master，main是远程仓库名字，命名这可能有点不规范了不要学我）
+![[fig/Pasted image 20251031190821.png]]
+![[fig/Pasted image 20251031190837.png]]
+
+上传好后：
+
+![[fig/Pasted image 20251031191132.png]]
+ok github这边就ok了，接下来就是服务器的托管和网站部署了
+
+## [Cloudflare Pages]([Account home | 1557024601@qq.com's Account | Cloudflare](https://dash.cloudflare.com/c1a5e4879189a0cf41972b25b27e9344/home/domains)) 自动构建和部署
+
 
 Cloudflare 是一家全球知名的网络安全与性能优化公司，主要为网站、应用等提供服务。它通过遍布全球的边缘网络，帮助用户抵御网络攻击（如 DDoS 攻击），同时加速内容加载速度，还能管理域名解析等，让网络服务更安全、稳定、高效
 
+废话不多说教程如下：
+[Cloudflare部署教程 | 将网站部署到Cloudflare | CursorHub教程](https://cursorhub.org/tutorials/fullstack-guide/server-deployment/cloudflare-deployment)
+> [!IMPORTANT]
+> 需要注意的是，在设置自定义域名时候配置DNS时，使用CNAME时的目标记得和项目的Aliases保持一致，建议直接拷贝过去。我当时就是因为前面少了个分支master，网站一直有问题无法显示。
 
 
-## Cloudflare Pages 自动构建和部署
-https://cursorhub.org/tutorials/fullstack-guide/server-deployment/cloudflare-deployment
+![[fig/Pasted image 20251031192600.png]]
 
-[Compute (Workers) | Workers & Pages | 1557024601@qq.com's Account | Cloudflare](https://dash.cloudflare.com/c1a5e4879189a0cf41972b25b27e9344/pages/view/nono741852-github-io/fbca79a1-e5cb-418a-85d9-335432b916ca)
 
+![[fig/Pasted image 20251031192321.png]]
 
 **DNS 查询网站**
 [DNS Checker - DNS Check Propagation Tool](https://dnschecker.org/#A/rynnono.top)
@@ -120,225 +135,10 @@ https://cursorhub.org/tutorials/fullstack-guide/server-deployment/cloudflare-dep
 	我当时出现的就是第二种情况，所以可以排查还是DSN设置的有问题。
 ## obisidian 创建内容
 
+直接在你的网站文件夹下创建仓库打开就可以编辑内容了。至于obsidian怎么安装使用，自行搜索吧，详细的教程有很多，很推荐作为笔记去使用。
 
+![[fig/Pasted image 20251031192809.png]]
 
 
 
-
-## 段落和文本格式
-
-这是一个普通段落。它可以包含**粗体文本**、*斜体文本*、***粗斜体文本***、~~删除线~~、`行内代码`和[链接文本](https://example.com)。
-
-这是另一个段落，用于测试段落之间的间距。
-
-## 引用块
-
-> 这是一个简单的引用块。
-> 
-> 引用块可以包含多个段落。
-
-> 这是一个嵌套引用的例子：
-> 
-> > 这是嵌套引用的内容。
-> > 
-> > 可以有多层嵌套。
-
-## 列表
-
-### 无序列表
-
-- 第一项
-- 第二项
-  - 嵌套项 1
-  - 嵌套项 2
-    - 更深层的嵌套项
-- 第三项
-
-### 有序列表
-
-1. 第一项
-2. 第二项
-   1. 嵌套有序项 1
-   2. 嵌套有序项 2
-      1. 更深层的嵌套项
-3. 第三项
-
-### 任务列表（复选框）
-
-- [x] 已完成的任务
-- [ ] 未完成的任务
-- [x] 另一个已完成的任务
-- [ ] 嵌套任务列表
-  - [x] 子任务 1（已完成）
-  - [ ] 子任务 2（未完成）
-  - [x] 子任务 3（已完成）
-
-### 定义列表
-
-术语 1
-: 这是术语 1 的定义。
-
-术语 2
-: 这是术语 2 的定义。
-: 术语可以有多个定义。
-
-## 代码
-
-### 行内代码
-
-这是一个包含 `console.log('Hello World')` 的段落。
-
-### 代码块
-
-```javascript
-function greet(name) {
-  console.log(`你好，${name}！`);
-}
-
-greet('世界');
-```
-
-```python
-def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n-1) + fibonacci(n-2)
-
-print(fibonacci(10))
-```
-
-```css
-.prose {
-  max-width: none;
-  color: var(--tw-prose-body);
-}
-
-.prose h1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-}
-```
-
-## 表格
-
-| 左对齐 | 居中对齐 | 右对齐 |
-|:-------|:--------:|-------:|
-| 内容 1 | 内容 2   | 内容 3 |
-| 较长的内容 | 中等     | 短     |
-| 数据 A | 数据 B   | 数据 C |
-
-## 水平分割线
-
----
-
-## 图片
-
-![示例图片](/images/01.avif "示例图片")
-
-## 链接
-
-这是一个[普通链接](https://example.com)。
-
-这是一个[带标题的链接](https://example.com "链接标题")。
-
-这是一个引用式链接：[引用链接][1]
-
-[1]: https://example.com "引用链接标题"
-
-## 脚注
-
-这是一个包含脚注的段落[^1]。
-
-这里是另一个脚注[^note]。
-
-[^1]: 这是第一个脚注的内容。
-
-[^note]: 这是命名脚注的内容。
-
-## 高亮文本
-
-这是一个包含==高亮文本==的段落。
-
-## 上标和下标
-
-H~2~O 是水的化学分子式。
-
-E = mc^2^ 是爱因斯坦的质能方程。
-
-## 键盘按键
-
-按 <kbd>Ctrl</kbd> + <kbd>C</kbd> 复制文本。
-
-## 缩写
-
-HTML 是*超文本标记语言*的缩写。
-
-*[HTML]: 超文本标记语言
-
-## 数学公式（如果支持 KaTeX）
-
-行内公式：$E = mc^2$
-
-块级公式：
-
-$$
-\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
-$$
-
-## 提示框（如果支持）
-
-> [!NOTE]
-> 这是一个注意事项。
-
-> [!TIP]
-> 这是一个提示。
-
-> [!IMPORTANT]
-> 这是重要信息。
-
-> [!WARNING]
-> 这是一个警告。
-
-> [!CAUTION]
-> 这是一个注意事项。
-
-## 详情（如果支持）
-
-<details>
-<summary>点击展开详情</summary>
-
-这是折叠的详细内容。
-
-你可以在这里包含任何 Markdown 语法：
-
-- 列表项
-- **粗体文本**
-- `代码`
-
-</details>
-
-## 混合内容测试
-
-这个段落包含多种格式：**粗体**、*斜体*、`代码`、[链接](https://example.com)、~~删除线~~、==高亮==。
-
-### 复杂列表
-
-1. 包含**粗体**文本的第一项
-   - 包含`代码`的嵌套项
-   - 包含[链接](https://example.com)的另一个嵌套项
-2. 包含*斜体*文本的第二项
-   1. 有序嵌套项
-   2. 另一个有序嵌套项
-3. 包含~~删除线~~文本的第三项
-
-### 复杂表格
-
-| 功能                        | 状态  | 描述     |
-| ------------------------- | :-: | ------ |
-| **粗体**                    |  ✅  | 支持粗体文本 |
-| *斜体*                      |  ✅  | 支持斜体   |
-| `代码`                      |  ✅  | 支持行内代码 |
-| [链接](https://example.com) |  ✅  | 支持链接   |
-| ~~删除线~~                   |  ❌  | 需要测试   |
-
-这个测试文档涵盖了大多数常见的 Markdown 语法，可以用来验证文档样式的完整性和美观性。
+ok到这里结束了。写一篇好累……
